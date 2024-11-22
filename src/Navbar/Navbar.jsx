@@ -7,7 +7,7 @@ function Navbar() {
 
     return (
         <>
-            <div className="bg-white flex gap-[52%] lg:gap-[30%] py-4 font-bold text-lg drop-shadow-md">
+            <div className="bg-white flex xl:gap-[52%] lg:gap-[30%] py-4 font-bold text-lg drop-shadow-md">
                 <div className="ml-16">
                     <h1 onClick={() => navigate("/")} className="cursor-pointer">Kanban - Gerenciamento de Tarefas</h1>
                 </div>
